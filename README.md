@@ -32,10 +32,7 @@
 </div>
 
 <!-- ====== DIVIDER ====== -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="0" height="0" alt="" />
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2" width="100%" />
-</div>
+
 
 <!-- ====== ABOUT ====== -->
 ## <img src="https://img.shields.io/badge/-About-8B5CF6?style=flat-square&logoColor=white" />
@@ -47,7 +44,7 @@ What I actually do, not just claim:
 - Design and operate **multi-zone network defenses** in EVE-ng — Cisco ZPF, ZTNA posture checks, and ML-augmented IDS — under the supervision of Pr. Ikram Ben Abdel Ouahab.
 - Build **stream-first detection pipelines** on Kafka + Spark Structured Streaming with PostgreSQL persistence and Streamlit visualization.
 - Work the full **SOC analyst stack**: log ingestion, correlation, triage, and incident response with Splunk, Wazuh, Suricata, and TheHive.
-- Lead the **IT GEEKS Club** at FST Tanger for the 2025–2026 mandate, running CTF training and applied-security workshops.
+- Lead the **IT GEEKS Club** at FST Tanger for the 2025–2026 mandate.
 
 **Open to:** PFA internship as a **Junior SOC Analyst** or **Cloud Security Engineer** — Tanger or Casablanca, starting Spring 2026.
 
@@ -319,7 +316,6 @@ Elected to lead the faculty's flagship technology club. I run the technical prog
 
 - Designed a CTF training track covering web, pwn, reverse, and crypto fundamentals
 - Coached members who went on to compete with ANTISITBD at MACC 2026 and NorthSec
-- Organized hands-on workshops on network defense, OSINT, and web exploitation
 - Built a year-round calendar of events around real lab work, not just talks
 
 `Leadership` · `Technical Coaching` · `Curriculum Design` · `Community Building`
