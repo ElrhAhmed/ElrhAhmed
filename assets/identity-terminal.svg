@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ahmed El Rhorba</title>
+  <desc id="desc">Cloud Security, DevSecOps and Security Engineering</desc>
+
+  <rect x="1" y="1" width="758" height="258" rx="16" fill="#0B1220" stroke="#30363D" stroke-width="2"/>
+  <path d="M1 48h758" stroke="#30363D"/>
+
+  <circle cx="25" cy="25" r="5" fill="#F97316"/>
+  <circle cx="43" cy="25" r="5" fill="#F59E0B" fill-opacity=".62"/>
+  <circle cx="61" cy="25" r="5" fill="#58A6FF" fill-opacity=".55"/>
+  <text x="380" y="30" text-anchor="middle" fill="#8B949E" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="1">IDENTITY // CLOUD CONSOLE</text>
+
+  <text x="34" y="83" fill="#F59E0B" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="14">ahmed@cloud:~$</text>
+  <text x="172" y="83" fill="#8B949E" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="14">whoami</text>
+
+  <text x="34" y="133" fill="#E6EDF3" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="42" font-weight="600" letter-spacing="1">AHMED EL RHORBA</text>
+  <text x="36" y="166" fill="#58A6FF" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="17" font-weight="500" letter-spacing=".6">CLOUD SECURITY • DEVSECOPS • SECURITY ENGINEERING</text>
+
+  <path d="M34 191h692" stroke="#21262D"/>
+  <text x="34" y="222" fill="#8B949E" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">IDENTITY</text>
+  <text x="108" y="222" fill="#E6EDF3" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">least privilege</text>
+  <text x="288" y="222" fill="#8B949E" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">DELIVERY</text>
+  <text x="362" y="222" fill="#E6EDF3" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">secure by default</text>
+  <text x="558" y="222" fill="#8B949E" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">SIGNAL</text>
+  <text x="616" y="222" fill="#E6EDF3" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">observable</text>
+
+  <rect x="34" y="239" width="692" height="2" rx="1" fill="#21262D"/>
+  <rect x="34" y="239" width="148" height="2" rx="1" fill="#F59E0B"/>
+</svg>
