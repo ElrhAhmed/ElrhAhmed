@@ -121,26 +121,24 @@ def render_svg(
   <style>
     :root {{ --ink:#dce7f4; --muted:#71839a; --line:#2b3d52; --amber:#f59e0b; --blue:#58a6ff; }}
     .label {{ font:600 10px "Red Hat Display","Segoe UI",sans-serif; letter-spacing:2px; fill:var(--muted); }}
-    .pulse {{ fill:none; stroke:url(#pulse-ink); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:1600; animation:draw 2s ease-out both; }}
-    .day {{ fill:var(--ink); animation:breathe 4.8s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }}
+    .amber-stop {{ stop-color:var(--amber); }}
+    .blue-stop {{ stop-color:var(--blue); }}
+    .pulse {{ fill:none; stroke:url(#pulse-ink); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }}
+    .day {{ fill:var(--ink); }}
     .runner {{ animation:travel 7s 1.4s ease-in-out infinite; }}
-    @keyframes draw {{ from {{ stroke-dashoffset:1600; }} to {{ stroke-dashoffset:0; }} }}
-    @keyframes breathe {{ 0%,100% {{ transform:scale(.82); }} 50% {{ transform:scale(1.12); }} }}
     @keyframes travel {{ 0% {{ transform:translateX(0); opacity:0; }} 10% {{ opacity:1; }} 85% {{ opacity:1; }} 100% {{ transform:translateX(832px); opacity:0; }} }}
     @media (prefers-color-scheme:light) {{
       :root {{ --ink:#27364a; --muted:#65758a; --line:#d7e0ea; --amber:#c86f00; --blue:#1769aa; }}
     }}
     @media (prefers-reduced-motion:reduce) {{
-      .pulse {{ stroke-dashoffset:0; animation:none; }}
-      .day {{ animation:none; }}
       .runner {{ display:none; }}
     }}
   </style>
   <defs>
     <linearGradient id="pulse-ink" x1="{left}" y1="0" x2="{right}" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="var(--amber)" stop-opacity=".28"/>
-      <stop offset=".48" stop-color="var(--blue)"/>
-      <stop offset="1" stop-color="var(--amber)" stop-opacity=".28"/>
+      <stop class="amber-stop" offset="0" stop-opacity=".28"/>
+      <stop class="blue-stop" offset=".48"/>
+      <stop class="amber-stop" offset="1" stop-opacity=".28"/>
     </linearGradient>
     <filter id="runner-glow" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
