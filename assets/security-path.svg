@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-labelledby="title desc">
+  <title id="title">Ahmed's security decision path</title>
+  <desc id="desc">A moving signal connects identity, secure delivery, controlled runtime, and observable evidence.</desc>
+  <style>
+    :root { --ink:#dce7f4; --muted:#71839a; --line:#31465e; --amber:#f59e0b; --blue:#58a6ff; }
+    .eyebrow { font:600 9px "Trebuchet MS",sans-serif; letter-spacing:2px; fill:var(--muted); }
+    .label { font:700 12px "Trebuchet MS",sans-serif; letter-spacing:1.4px; fill:var(--ink); }
+    .question { font:600 11px "Trebuchet MS",sans-serif; fill:var(--ink); }
+    .detail { font:400 9px "Trebuchet MS",sans-serif; letter-spacing:.35px; fill:var(--muted); }
+    .route { fill:none; stroke:var(--line); stroke-width:1.35; stroke-linecap:round; }
+    .node { fill:var(--ink); }
+    .ring { fill:none; stroke:var(--blue); stroke-width:1; opacity:.55; }
+    .signal { fill:var(--amber); }
+    @media (prefers-color-scheme:light) {
+      :root { --ink:#27364a; --muted:#65758a; --line:#ccd7e3; --amber:#c86f00; --blue:#1769aa; }
+    }
+    @media (prefers-reduced-motion:reduce) { .signal { display:none; } }
+  </style>
+  <defs>
+    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <text class="eyebrow" x="34" y="16">THE SECURITY DECISION PATH</text>
+  <path class="route" d="M70 112 C170 112 220 76 320 76 C420 76 480 146 580 146 C680 146 730 104 830 104"/>
+
+  <g>
+    <circle class="ring" cx="70" cy="112" r="8"/><circle class="node" cx="70" cy="112" r="3"/>
+    <text class="label" x="70" y="57">01 · IDENTITY</text>
+    <text class="question" x="70" y="75">who may act?</text>
+    <text class="detail" x="70" y="91">IAM · privilege · trust</text>
+  </g>
+  <g>
+    <circle class="ring" cx="320" cy="76" r="8"/><circle class="node" cx="320" cy="76" r="3"/>
+    <text class="label" x="320" y="116">02 · DELIVERY</text>
+    <text class="question" x="320" y="134">what may ship?</text>
+    <text class="detail" x="320" y="150">CI gates · IaC · supply chain</text>
+  </g>
+  <g>
+    <circle class="ring" cx="580" cy="146" r="8"/><circle class="node" cx="580" cy="146" r="3"/>
+    <text class="label" x="580" y="77">03 · RUNTIME</text>
+    <text class="question" x="580" y="95">what may execute?</text>
+    <text class="detail" x="580" y="111">Linux · containers · clusters</text>
+  </g>
+  <g text-anchor="end">
+    <circle class="ring" cx="830" cy="104" r="8"/><circle class="node" cx="830" cy="104" r="3"/>
+    <text class="label" x="830" y="142">04 · EVIDENCE</text>
+    <text class="question" x="830" y="160">what actually happened?</text>
+    <text class="detail" x="830" y="176">logs · telemetry · response</text>
+  </g>
+
+  <circle class="signal" r="3.4" filter="url(#glow)">
+    <animateMotion path="M70 112 C170 112 220 76 320 76 C420 76 480 146 580 146 C680 146 730 104 830 104" dur="8s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -18,53 +18,30 @@ I am a Master's student in **Systems Security & Big Data**, building toward **Cl
 
 ## Focus
 
-<details open>
-<summary><strong>01 · Cloud Security</strong></summary>
+I work across one connected question: **can we prove that the right identity shipped the right change into a controlled runtime—and explain what happened next?**
 
-IAM, segmentation, logging, and infrastructure controls.
-
-</details>
-
-<details>
-<summary><strong>02 · DevSecOps</strong></summary>
-
-CI/CD security, containers, Infrastructure as Code, and security automation.
-
-</details>
-
-<details>
-<summary><strong>03 · Security Engineering</strong></summary>
-
-Secure architecture, threat-informed controls, and observability.
-
-</details>
-
-<details>
-<summary><strong>04 · Infrastructure Security</strong></summary>
-
-Linux hardening, networking, isolation, and system security.
-
-</details>
+<img src="./assets/security-path.svg" alt="Security decision path: identity, delivery, runtime and evidence" width="100%" />
 
 ## Toolbox
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=dark" />
-  <img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=light" alt="AWS, Linux, Docker, Kubernetes, Terraform, GitHub Actions, Git, Bash and Python" />
-</picture>
+<sub>CLOUD &amp; RUNTIME</sub><br><br>
+<img src="./assets/icons/aws.svg" alt="AWS" title="AWS" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/linux.svg" alt="Linux" title="Linux" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/docker.svg" alt="Docker" title="Docker" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="42" height="42" />
+
+<br><br><sub>DELIVERY &amp; INFRASTRUCTURE AS CODE</sub><br><br>
+<img src="./assets/icons/terraform.svg" alt="Terraform" title="Terraform" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/github-actions.svg" alt="GitHub Actions" title="GitHub Actions" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/git.svg" alt="Git" title="Git" width="42" height="42" />
+
+<br><br><sub>AUTOMATION</sub><br><br>
+<img src="./assets/icons/bash.svg" alt="Bash" title="Bash" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/python.svg" alt="Python" title="Python" width="42" height="42" />
 
 </div>
-
-<details>
-<summary><strong>View the stack by layer</strong></summary>
-
-- **Cloud & platform:** AWS, Linux, Docker, Kubernetes
-- **Delivery & IaC:** Terraform, GitHub Actions, Git
-- **Automation:** Bash, Python
-
-</details>
 
 ## Activity
 
@@ -83,6 +60,14 @@ Linux hardening, networking, isolation, and system security.
 ## Connect
 
 <div align="center">
+
+<a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" width="25" height="25" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:Ahmedelrh04@gmail.com"><img src="./assets/icons/mail.svg" alt="Email" width="27" height="27" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/ElrhAhmed"><img src="./assets/icons/github.svg" alt="GitHub" width="25" height="25" /></a>
+
+<br>
 
 <a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/">LinkedIn</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;

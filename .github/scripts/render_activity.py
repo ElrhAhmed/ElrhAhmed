@@ -92,16 +92,20 @@ def render_svg(
 
     width, height = 900, 132
     left, right, baseline = 34, 866, 82
-    maximum = max((count for _, count in days), default=0)
+    weeks = [
+        (days[index][0], sum(count for _, count in days[index : index + 7]))
+        for index in range(0, len(days), 7)
+    ]
+    maximum = max((count for _, count in weeks), default=0)
     span = right - left
     points: list[tuple[float, float, float, int]] = []
-    for index, (_, count) in enumerate(days):
+    for index, (_, count) in enumerate(weeks):
         ratio = math.sqrt(count / maximum) if maximum else 0
-        x = left + span * index / (len(days) - 1)
+        x = left + span * index / (len(weeks) - 1)
         y = baseline - ratio * 42
         points.append((x, y, ratio, count))
 
-    polyline = " ".join(f"{x:.1f},{y:.1f}" for x, y, _, _ in points)
+    route = " L ".join(f"{x:.1f},{y:.1f}" for x, y, _, _ in points)
     dots = "\n".join(
         (
             f'    <circle class="day" cx="{x:.1f}" cy="{y:.1f}" '
@@ -125,8 +129,7 @@ def render_svg(
     .blue-stop {{ stop-color:var(--blue); }}
     .pulse {{ fill:none; stroke:url(#pulse-ink); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }}
     .day {{ fill:var(--ink); }}
-    .runner {{ animation:travel 7s 1.4s ease-in-out infinite; }}
-    @keyframes travel {{ 0% {{ transform:translateX(0); opacity:0; }} 10% {{ opacity:1; }} 85% {{ opacity:1; }} 100% {{ transform:translateX(832px); opacity:0; }} }}
+    .runner {{ fill:var(--amber); }}
     @media (prefers-color-scheme:light) {{
       :root {{ --ink:#27364a; --muted:#65758a; --line:#d7e0ea; --amber:#c86f00; --blue:#1769aa; }}
     }}
@@ -148,9 +151,11 @@ def render_svg(
   <text class="label" x="{left}" y="17">PUBLIC ACTIVITY · 12 WEEKS</text>
   <text class="label" x="{right}" y="17" text-anchor="end">{total_label}</text>
   <path d="M{left} {baseline}H{right}" stroke="var(--line)" stroke-width="1"/>
-  <polyline class="pulse" points="{polyline}"/>
+  <path class="pulse" d="M {route}"/>
 {dots}
-  <circle class="runner" cx="{left}" cy="{baseline}" r="3.2" fill="var(--amber)" filter="url(#runner-glow)"/>
+  <circle class="runner" r="3.2">
+    <animateMotion path="M {route}" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
   <text class="label" x="{left}" y="120">{start_label}</text>
   <text class="label" x="{right}" y="120" text-anchor="end">{end_label}</text>
 </svg>
@@ -179,6 +184,7 @@ def main() -> int:
         ET.fromstring(rendered)
         assert "11 CONTRIBUTIONS" in rendered
         assert rendered.count('class="day"') == 2
+        assert '<animateMotion path="M ' in rendered
         return 0
 
     username = os.environ.get("GH_USER", "ElrhAhmed")

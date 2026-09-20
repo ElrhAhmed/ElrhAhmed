@@ -8,8 +8,7 @@
     .blue-stop { stop-color:var(--blue); }
     .pulse { fill:none; stroke:url(#pulse-ink); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
     .day { fill:var(--ink); }
-    .runner { animation:travel 7s 1.4s ease-in-out infinite; }
-    @keyframes travel { 0% { transform:translateX(0); opacity:0; } 10% { opacity:1; } 85% { opacity:1; } 100% { transform:translateX(832px); opacity:0; } }
+    .runner { fill:var(--amber); }
     @media (prefers-color-scheme:light) {
       :root { --ink:#27364a; --muted:#65758a; --line:#d7e0ea; --amber:#c86f00; --blue:#1769aa; }
     }
@@ -31,46 +30,22 @@
   <text class="label" x="34" y="17">PUBLIC ACTIVITY · 12 WEEKS</text>
   <text class="label" x="866" y="17" text-anchor="end">201 CONTRIBUTIONS</text>
   <path d="M34 82H866" stroke="var(--line)" stroke-width="1"/>
-  <polyline class="pulse" points="34.0,82.0 44.0,82.0 54.0,67.5 64.1,82.0 74.1,82.0 84.1,82.0 94.1,82.0 104.2,82.0 114.2,82.0 124.2,82.0 134.2,67.5 144.3,70.1 154.3,82.0 164.3,82.0 174.3,61.4 184.4,70.1 194.4,82.0 204.4,82.0 214.4,82.0 224.5,82.0 234.5,82.0 244.5,82.0 254.5,82.0 264.6,82.0 274.6,61.4 284.6,73.6 294.6,73.6 304.7,67.5 314.7,59.8 324.7,82.0 334.7,82.0 344.7,82.0 354.8,82.0 364.8,73.6 374.8,63.2 384.8,61.4 394.9,67.5 404.9,82.0 414.9,82.0 424.9,82.0 435.0,82.0 445.0,82.0 455.0,82.0 465.0,70.1 475.1,73.6 485.1,82.0 495.1,82.0 505.1,82.0 515.2,82.0 525.2,82.0 535.2,82.0 545.2,59.8 555.3,82.0 565.3,82.0 575.3,65.2 585.3,67.5 595.3,82.0 605.4,82.0 615.4,82.0 625.4,82.0 635.4,67.5 645.5,67.5 655.5,65.2 665.5,82.0 675.5,56.8 685.6,82.0 695.6,82.0 705.6,56.8 715.6,61.4 725.7,67.5 735.7,56.8 745.7,40.0 755.7,82.0 765.8,73.6 775.8,63.2 785.8,59.8 795.8,54.1 805.9,59.8 815.9,73.6 825.9,82.0 835.9,65.2 846.0,47.4 856.0,63.2 866.0,61.4"/>
-    <circle class="day" cx="54.0" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="134.2" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="144.3" cy="70.1" r="2.1" opacity="0.38"/>
-    <circle class="day" cx="174.3" cy="61.4" r="2.7" opacity="0.54"/>
-    <circle class="day" cx="184.4" cy="70.1" r="2.1" opacity="0.38"/>
-    <circle class="day" cx="274.6" cy="61.4" r="2.7" opacity="0.54"/>
-    <circle class="day" cx="284.6" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="294.6" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="304.7" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="314.7" cy="59.8" r="2.8" opacity="0.57"/>
-    <circle class="day" cx="364.8" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="374.8" cy="63.2" r="2.6" opacity="0.51"/>
-    <circle class="day" cx="384.8" cy="61.4" r="2.7" opacity="0.54"/>
-    <circle class="day" cx="394.9" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="465.0" cy="70.1" r="2.1" opacity="0.38"/>
-    <circle class="day" cx="475.1" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="545.2" cy="59.8" r="2.8" opacity="0.57"/>
-    <circle class="day" cx="575.3" cy="65.2" r="2.4" opacity="0.47"/>
-    <circle class="day" cx="585.3" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="635.4" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="645.5" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="655.5" cy="65.2" r="2.4" opacity="0.47"/>
-    <circle class="day" cx="675.5" cy="56.8" r="3.0" opacity="0.63"/>
-    <circle class="day" cx="705.6" cy="56.8" r="3.0" opacity="0.63"/>
-    <circle class="day" cx="715.6" cy="61.4" r="2.7" opacity="0.54"/>
-    <circle class="day" cx="725.7" cy="67.5" r="2.3" opacity="0.43"/>
-    <circle class="day" cx="735.7" cy="56.8" r="3.0" opacity="0.63"/>
-    <circle class="day" cx="745.7" cy="40.0" r="4.0" opacity="0.94"/>
-    <circle class="day" cx="765.8" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="775.8" cy="63.2" r="2.6" opacity="0.51"/>
-    <circle class="day" cx="785.8" cy="59.8" r="2.8" opacity="0.57"/>
-    <circle class="day" cx="795.8" cy="54.1" r="3.1" opacity="0.68"/>
-    <circle class="day" cx="805.9" cy="59.8" r="2.8" opacity="0.57"/>
-    <circle class="day" cx="815.9" cy="73.6" r="1.9" opacity="0.32"/>
-    <circle class="day" cx="835.9" cy="65.2" r="2.4" opacity="0.47"/>
-    <circle class="day" cx="846.0" cy="47.4" r="3.5" opacity="0.80"/>
-    <circle class="day" cx="856.0" cy="63.2" r="2.6" opacity="0.51"/>
-    <circle class="day" cx="866.0" cy="61.4" r="2.7" opacity="0.54"/>
-  <circle class="runner" cx="34" cy="82" r="3.2" fill="var(--amber)" filter="url(#runner-glow)"/>
+  <path class="pulse" d="M 34.0,72.4 L 109.6,69.7 L 185.3,66.4 L 260.9,63.7 L 336.5,62.1 L 412.2,65.5 L 487.8,72.4 L 563.5,61.4 L 639.1,64.6 L 714.7,53.3 L 790.4,40.0 L 866.0,47.1"/>
+    <circle class="day" cx="34.0" cy="72.4" r="2.0" opacity="0.34"/>
+    <circle class="day" cx="109.6" cy="69.7" r="2.2" opacity="0.39"/>
+    <circle class="day" cx="185.3" cy="66.4" r="2.4" opacity="0.45"/>
+    <circle class="day" cx="260.9" cy="63.7" r="2.5" opacity="0.50"/>
+    <circle class="day" cx="336.5" cy="62.1" r="2.6" opacity="0.53"/>
+    <circle class="day" cx="412.2" cy="65.5" r="2.4" opacity="0.47"/>
+    <circle class="day" cx="487.8" cy="72.4" r="2.0" opacity="0.34"/>
+    <circle class="day" cx="563.5" cy="61.4" r="2.7" opacity="0.54"/>
+    <circle class="day" cx="639.1" cy="64.6" r="2.5" opacity="0.48"/>
+    <circle class="day" cx="714.7" cy="53.3" r="3.2" opacity="0.69"/>
+    <circle class="day" cx="790.4" cy="40.0" r="4.0" opacity="0.94"/>
+    <circle class="day" cx="866.0" cy="47.1" r="3.6" opacity="0.81"/>
+  <circle class="runner" r="3.2">
+    <animateMotion path="M 34.0,72.4 L 109.6,69.7 L 185.3,66.4 L 260.9,63.7 L 336.5,62.1 L 412.2,65.5 L 487.8,72.4 L 563.5,61.4 L 639.1,64.6 L 714.7,53.3 L 790.4,40.0 L 866.0,47.1" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
   <text class="label" x="34" y="120">2026-06-29</text>
   <text class="label" x="866" y="120" text-anchor="end">2026-09-20</text>
 </svg>
