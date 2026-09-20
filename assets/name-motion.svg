@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-labelledby="title desc">
+  <title id="title">Ahmed El Rhorba</title>
+  <desc id="desc">Ahmed El Rhorba in animated abstract lettering, followed by Cloud Security, DevSecOps and Security Engineering.</desc>
+
+  <defs>
+    <linearGradient id="name-ink" x1="0" y1="0" x2="865" y2="0" gradientUnits="userSpaceOnUse">
+      <stop class="ink-start" offset="0"/>
+      <stop class="ink-mid" offset=".42"/>
+      <stop class="ink-shimmer" offset=".5"/>
+      <stop class="ink-mid" offset=".58"/>
+      <stop class="ink-end" offset="1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-900 0;900 0" dur="6.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="thread-ink" x1="160" y1="0" x2="740" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset=".23" stop-color="#f59e0b"/>
+      <stop offset=".76" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="spark-glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="glyph-a">
+      <path d="M13.813-12.438v-8.015H45.39v8.015ZM1.484 0l23.204-53.14h9.984L58.094 0H47.984L27.656-47.953h4.047L11.47 0Z"/>
+    </g>
+    <g id="glyph-h">
+      <path d="M14.672-30.61h39v8.001h-39Zm37.719-22.53h9.296V0h-9.296ZM6.406-53.14h9.297V0H6.406Z"/>
+    </g>
+    <g id="glyph-m">
+      <path d="M43.813-4.875h-4.235L67.781-53.14h9.297V0h-9.297v-39.781l2.14.593L46.813 0H36.672L13.562-39.063l2.141-.578V0H6.406v-53.14h9.297Z"/>
+    </g>
+    <g id="glyph-e">
+      <path d="M15.703-22.625v14.61h37.344V0H6.407v-53.14h46.562v8H15.703v14.812H46.22v7.703Z"/>
+    </g>
+    <g id="glyph-d">
+      <path d="M31.938-53.14c5.726 0 10.519.71 14.375 2.124 3.863 1.407 6.945 3.336 9.25 5.782 2.312 2.437 3.968 5.242 4.968 8.406 1.008 3.168 1.516 6.512 1.516 10.031 0 3.524-.547 6.899-1.64 10.125-1.094 3.219-2.829 6.078-5.204 8.578-2.367 2.5-5.465 4.477-9.297 5.922C42.07-.723 37.414 0 31.938 0H6.405v-53.14ZM15.703-8.172h16.078c4.07 0 7.446-.52 10.125-1.562 2.676-1.051 4.801-2.461 6.375-4.235 1.57-1.77 2.692-3.765 3.36-5.984.664-2.219 1-4.5 1-6.844 0-2.344-.336-4.594-1-6.75-.668-2.164-1.79-4.11-3.36-5.828-1.574-1.719-3.699-3.082-6.375-4.094-2.68-1.007-6.055-1.515-10.125-1.515H15.703Z"/>
+    </g>
+    <g id="glyph-l">
+      <path d="M15.703-53.14v45.124h33.14V0H6.407v-53.14Z"/>
+    </g>
+    <g id="glyph-r">
+      <path d="M6.406 0v-53.14h31.39c3.958 0 7.38.562 10.267 1.687 2.882 1.117 5.117 2.84 6.703 5.172 1.582 2.324 2.375 5.281 2.375 8.875 0 2.437-.414 4.511-1.235 6.219-.824 1.71-1.968 3.117-3.437 4.218-1.469 1.106-3.172 1.95-5.11 2.532-1.93.586-4 .96-6.218 1.125l-.813-.579c3.488.086 6.39.418 8.703 1 2.32.586 4.082 1.641 5.282 3.172 1.195 1.532 1.796 3.813 1.796 6.844V0h-9.296v-12.406c0-2.094-.368-3.715-1.094-4.86-.719-1.164-1.977-1.984-3.766-2.453-1.781-.469-4.32-.703-7.61-.703H15.704V0Zm9.297-28.063h22.094c3.3 0 5.797-.812 7.484-2.437 1.696-1.633 2.547-3.8 2.547-6.5 0-2.582-.851-4.555-2.547-5.922-1.687-1.375-4.183-2.062-7.484-2.062H15.703Z"/>
+    </g>
+    <g id="glyph-o">
+      <path d="M35.094.969c-6.242 0-11.672-1.114-16.297-3.344-4.617-2.238-8.195-5.406-10.734-9.5-2.543-4.102-3.813-8.992-3.813-14.672 0-5.719 1.27-10.629 3.813-14.734 2.539-4.114 6.117-7.281 10.734-9.5 4.625-2.227 10.055-3.344 16.297-3.344 6.281 0 11.719 1.117 16.312 3.344 4.602 2.219 8.176 5.386 10.719 9.5 2.54 4.105 3.813 9.015 3.813 14.734 0 5.68-1.274 10.57-3.813 14.672-2.543 4.094-6.117 7.262-10.719 9.5C46.812-.145 41.375.969 35.094.969Zm0-8.219c4.133 0 7.789-.707 10.968-2.125 3.176-1.426 5.68-3.566 7.516-6.422 1.832-2.863 2.75-6.445 2.75-10.75 0-4.3-.918-7.875-2.75-10.719-1.836-2.851-4.34-5.004-7.516-6.453-3.18-1.457-6.835-2.187-10.968-2.187-4.074 0-7.73.73-10.969 2.187-3.242 1.45-5.79 3.602-7.64 6.453-1.845 2.844-2.766 6.418-2.766 10.72 0 4.304.922 7.886 2.765 10.75 1.852 2.855 4.399 4.995 7.641 6.421 3.238 1.418 6.895 2.125 10.969 2.125Z"/>
+    </g>
+    <g id="glyph-b">
+      <path d="M6.406 0v-53.14h27.047c6.52 0 11.516 1.214 14.984 3.64 3.47 2.43 5.204 5.953 5.204 10.578 0 2.918-.68 5.246-2.032 6.985-1.343 1.73-3.246 3.015-5.703 3.859-2.449.836-5.328 1.371-8.64 1.61l.265-.548c2.438.086 4.735.305 6.89.657 2.165.355 4.079.968 5.735 1.843 1.656.875 2.961 2.09 3.922 3.641.957 1.555 1.438 3.563 1.438 6.031 0 3.262-.82 5.969-2.453 8.125-1.625 2.149-3.891 3.774-6.797 4.875C43.359-.738 40.008-.125 36.219 0Zm9.297-7.953H34.89c3.54 0 6.285-.61 8.234-1.828 1.945-1.227 2.922-3.176 2.922-5.844 0-2.02-.594-3.508-1.781-4.469-1.18-.969-2.72-1.586-4.625-1.86-1.907-.269-3.918-.405-6.032-.405H15.703Zm0-22.203H32.89c3.539 0 6.285-.614 8.234-1.844 1.945-1.238 2.922-3.191 2.922-5.86 0-2.632-.977-4.515-2.922-5.64-1.95-1.125-4.477-1.688-7.578-1.688H15.703Z"/>
+    </g>
+  </defs>
+
+  <style>
+    :root {
+      --ink: #f4f7fb;
+      --soft: #93a4b8;
+      --faint: #34455a;
+      --amber: #f59e0b;
+      --blue: #58a6ff;
+    }
+    .ink-start { stop-color: var(--ink); }
+    .ink-mid { stop-color: var(--ink); }
+    .ink-end { stop-color: var(--ink); }
+    .ink-shimmer { stop-color: var(--blue); }
+    .name-base { animation: name-breathe 5.4s ease-in-out infinite; }
+    .spark { animation: travel 5.8s 1.7s ease-in-out infinite; }
+    .orbit-a {
+      transform-origin: 62px 85px;
+      animation: orbit 18s linear infinite;
+    }
+    .orbit-b {
+      transform-origin: 838px 88px;
+      animation: orbit-reverse 22s linear infinite;
+    }
+    @keyframes travel {
+      0% { transform: translateX(0); opacity: 0; }
+      12% { opacity: 1; }
+      78% { opacity: 1; }
+      100% { transform: translateX(580px); opacity: 0; }
+    }
+    @keyframes name-breathe {
+      0%, 100% { opacity: .82; }
+      50% { opacity: 1; }
+    }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes orbit-reverse { to { transform: rotate(-360deg); } }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --ink: #111827;
+        --soft: #526175;
+        --faint: #cbd5e1;
+        --amber: #c86f00;
+        --blue: #1769aa;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .ink-shimmer { stop-color: var(--ink); }
+      .name-base { opacity: 1; animation: none; }
+      .spark { display: none; }
+      .orbit-a, .orbit-b { animation: none; }
+    }
+  </style>
+
+  <g fill="none" stroke="var(--faint)" stroke-width="1">
+    <g class="orbit-a">
+      <circle cx="62" cy="85" r="31" stroke-dasharray="2 9"/>
+      <circle cx="62" cy="54" r="2.5" fill="var(--amber)" stroke="none"/>
+    </g>
+    <path d="M18 85h26M80 85h28" stroke-dasharray="1 7"/>
+    <g class="orbit-b">
+      <circle cx="838" cy="88" r="27" stroke-dasharray="1 8"/>
+      <circle cx="838" cy="115" r="2.5" fill="var(--blue)" stroke="none"/>
+    </g>
+    <path d="M792 88h19M865 88h17" stroke-dasharray="1 7"/>
+  </g>
+
+  <g class="name-base" transform="translate(18 40)" fill="url(#name-ink)">
+    <use class="letter l1" href="#glyph-a" x="0" y="75.85"/>
+    <use class="letter l2" href="#glyph-h" x="60" y="75.85"/>
+    <use class="letter l3" href="#glyph-m" x="128" y="75.85"/>
+    <use class="letter l4" href="#glyph-e" x="211" y="75.85"/>
+    <use class="letter l5" href="#glyph-d" x="269" y="75.85"/>
+    <use class="letter l6" href="#glyph-e" x="354" y="75.85"/>
+    <use class="letter l7" href="#glyph-l" x="412" y="75.85"/>
+    <use class="letter l8" href="#glyph-r" x="484" y="75.85"/>
+    <use class="letter l9" href="#glyph-h" x="546" y="75.85"/>
+    <use class="letter l10" href="#glyph-o" x="614" y="75.85"/>
+    <use class="letter l11" href="#glyph-r" x="684" y="75.85"/>
+    <use class="letter l12" href="#glyph-b" x="746" y="75.85"/>
+    <use class="letter l13" href="#glyph-a" x="805" y="75.85"/>
+  </g>
+
+  <path class="thread" d="M160 145H740" fill="none" stroke="url(#thread-ink)" stroke-width="1.5"/>
+  <circle class="spark" cx="160" cy="145" r="3.5" fill="var(--amber)" filter="url(#spark-glow)"/>
+
+  <g class="role">
+    <text x="450" y="179" text-anchor="middle" fill="var(--soft)" font-family="'Red Hat Display','Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="3">CLOUD SECURITY · DEVSECOPS · SECURITY ENGINEERING</text>
+    <circle cx="126" cy="175" r="2" fill="var(--amber)"/>
+    <circle cx="774" cy="175" r="2" fill="var(--blue)"/>
+  </g>
+</svg>

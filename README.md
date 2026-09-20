@@ -1,126 +1,93 @@
 <div align="center">
 
-<img src="./assets/identity-terminal.svg" alt="Ahmed El Rhorba — Cloud Security, DevSecOps and Security Engineering" width="100%" />
+<img src="./assets/name-motion.svg" alt="Ahmed El Rhorba — Cloud Security, DevSecOps and Security Engineering" width="100%" />
 
-<br />
-
-<a href="#profile">PROFILE</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#about">ABOUT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#focus">FOCUS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#core-toolbox">TOOLBOX</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#engineering-mindset">MINDSET</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#toolbox">TOOLBOX</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#activity">ACTIVITY</a>&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="#connect">CONNECT</a>
 
 </div>
 
-## Profile
+## About
 
 I am a Master's student in **Systems Security & Big Data**, building toward **Cloud Security, DevSecOps, and Security Engineering**. I focus on secure infrastructure, security-aware delivery pipelines, and systems that are observable by design.
 
-> **Secure cloud infrastructure by design. Automate security into delivery. Observe, harden, verify.**
+> Build systems where identity is explicit, delivery carries its own controls, and telemetry guides the next decision.
 
 ## Focus
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<code>01 / CLOUD CONTROL</code>
-
-### Cloud Security
+<details open>
+<summary><strong>01 · Cloud Security</strong></summary>
 
 IAM, segmentation, logging, and infrastructure controls.
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-<code>02 / SECURE DELIVERY</code>
+<details>
+<summary><strong>02 · DevSecOps</strong></summary>
 
-### DevSecOps
+CI/CD security, containers, Infrastructure as Code, and security automation.
 
-CI/CD security, containers, IaC, and security automation.
+</details>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<code>03 / ENGINEERING</code>
-
-### Security Engineering
+<details>
+<summary><strong>03 · Security Engineering</strong></summary>
 
 Secure architecture, threat-informed controls, and observability.
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-<code>04 / SYSTEMS</code>
-
-### Infrastructure Security
+<details>
+<summary><strong>04 · Infrastructure Security</strong></summary>
 
 Linux hardening, networking, isolation, and system security.
 
-</td>
-</tr>
-</table>
+</details>
 
-## Core toolbox
+## Toolbox
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=dark" alt="AWS, Linux, Docker, Kubernetes, Terraform, GitHub Actions, Git, Bash and Python" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=light" alt="AWS, Linux, Docker, Kubernetes, Terraform, GitHub Actions, Git, Bash and Python" />
+</picture>
+
 </div>
 
-<br />
+<details>
+<summary><strong>View the stack by layer</strong></summary>
 
-<table>
-<tr>
-<td width="34%" valign="top">
-
-**Cloud & platform**
-
-`AWS · Linux`<br />
-`Docker · Kubernetes`
-
-</td>
-<td width="33%" valign="top">
-
-**Delivery & IaC**
-
-`Terraform · GitHub Actions`<br />
-`Git`
-
-</td>
-<td width="33%" valign="top">
-
-**Automation**
-
-`Bash · Python`
-
-</td>
-</tr>
-</table>
-
-## Engineering mindset
-
-<details open>
-<summary><strong>Security operating model</strong></summary>
-
-```yaml
-security:
-  identity: verify first
-  privilege: minimize
-  delivery: embed controls
-  systems: harden by design
-  telemetry: observe, then decide
-```
+- **Cloud & platform:** AWS, Linux, Docker, Kubernetes
+- **Delivery & IaC:** Terraform, GitHub Actions, Git
+- **Automation:** Bash, Python
 
 </details>
+
+## Activity
+
+<img src="./assets/activity-pulse.svg" alt="ElrhAhmed public GitHub activity over the last twelve weeks" width="100%" />
+
+<sub>Refreshed every Monday by GitHub Actions from public contribution data.</sub>
+
+## Principles
+
+<div align="center">
+
+`verify identity` &nbsp;→&nbsp; `minimize privilege` &nbsp;→&nbsp; `embed controls` &nbsp;→&nbsp; `observe before deciding`
+
+</div>
 
 ## Connect
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&amp;logo=linkedin&amp;logoColor=58A6FF" alt="LinkedIn" /></a>
-<a href="mailto:Ahmedelrh04@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&amp;logo=gmail&amp;logoColor=F59E0B" alt="Email" /></a>
-<a href="https://github.com/ElrhAhmed"><img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=E6EDF3" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/">LinkedIn</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:Ahmedelrh04@gmail.com">Email</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/ElrhAhmed">GitHub</a>
 
 </div>
