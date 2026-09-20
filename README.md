@@ -26,18 +26,15 @@ I work across one connected question: **can we prove that the right identity shi
 
 <div align="center">
 
-<sub>CLOUD &amp; RUNTIME</sub><br><br>
 <img src="./assets/icons/aws.svg" alt="AWS" title="AWS" width="42" height="42" />&nbsp;&nbsp;&nbsp;
 <img src="./assets/icons/linux.svg" alt="Linux" title="Linux" width="42" height="42" />&nbsp;&nbsp;&nbsp;
 <img src="./assets/icons/docker.svg" alt="Docker" title="Docker" width="42" height="42" />&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="42" height="42" />
+<img src="./assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/terraform.svg" alt="Terraform" title="Terraform" width="42" height="42" />
 
-<br><br><sub>DELIVERY &amp; INFRASTRUCTURE AS CODE</sub><br><br>
-<img src="./assets/icons/terraform.svg" alt="Terraform" title="Terraform" width="42" height="42" />&nbsp;&nbsp;&nbsp;
+<br><br>
 <img src="./assets/icons/github-actions.svg" alt="GitHub Actions" title="GitHub Actions" width="42" height="42" />&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/git.svg" alt="Git" title="Git" width="42" height="42" />
-
-<br><br><sub>AUTOMATION</sub><br><br>
+<img src="./assets/icons/git.svg" alt="Git" title="Git" width="42" height="42" />&nbsp;&nbsp;&nbsp;
 <img src="./assets/icons/bash.svg" alt="Bash" title="Bash" width="42" height="42" />&nbsp;&nbsp;&nbsp;
 <img src="./assets/icons/python.svg" alt="Python" title="Python" width="42" height="42" />
 
