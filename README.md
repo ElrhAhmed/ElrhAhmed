@@ -2,13 +2,21 @@
 
 <img src="./assets/identity-terminal.svg" alt="Ahmed El Rhorba — Cloud Security, DevSecOps and Security Engineering" width="100%" />
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=17&amp;duration=4200&amp;pause=1800&amp;color=F59E0B&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=680&amp;height=44&amp;lines=Secure+cloud+infrastructure+by+design.;Automate+security+into+delivery.;Observe%2C+harden%2C+verify." alt="Secure cloud infrastructure by design. Automate security into delivery. Observe, harden, verify." />
-</a>
+<br />
+
+<a href="#profile">PROFILE</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#focus">FOCUS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#core-toolbox">TOOLBOX</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#engineering-mindset">MINDSET</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#connect">CONNECT</a>
 
 </div>
 
-I am a Master's student in Systems Security & Big Data, building toward **Cloud Security, DevSecOps, and Security Engineering**. I focus on secure infrastructure, security-aware delivery pipelines, and systems that are observable by design.
+## Profile
+
+I am a Master's student in **Systems Security & Big Data**, building toward **Cloud Security, DevSecOps, and Security Engineering**. I focus on secure infrastructure, security-aware delivery pipelines, and systems that are observable by design.
+
+> **Secure cloud infrastructure by design. Automate security into delivery. Observe, harden, verify.**
 
 ## Focus
 
@@ -16,28 +24,40 @@ I am a Master's student in Systems Security & Big Data, building toward **Cloud 
 <tr>
 <td width="50%" valign="top">
 
-<h3>01 — Cloud Security</h3>
-<p>IAM, segmentation, logging, and infrastructure controls.</p>
+<code>01 / CLOUD CONTROL</code>
+
+### Cloud Security
+
+IAM, segmentation, logging, and infrastructure controls.
 
 </td>
 <td width="50%" valign="top">
 
-<h3>02 — DevSecOps</h3>
-<p>CI/CD security, containers, IaC, and security automation.</p>
+<code>02 / SECURE DELIVERY</code>
+
+### DevSecOps
+
+CI/CD security, containers, IaC, and security automation.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<h3>03 — Security Engineering</h3>
-<p>Secure architecture, threat-informed controls, and observability.</p>
+<code>03 / ENGINEERING</code>
+
+### Security Engineering
+
+Secure architecture, threat-informed controls, and observability.
 
 </td>
 <td width="50%" valign="top">
 
-<h3>04 — Infrastructure Security</h3>
-<p>Linux hardening, networking, isolation, and system security.</p>
+<code>04 / SYSTEMS</code>
+
+### Infrastructure Security
+
+Linux hardening, networking, isolation, and system security.
 
 </td>
 </tr>
@@ -49,7 +69,40 @@ I am a Master's student in Systems Security & Big Data, building toward **Cloud 
   <img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,githubactions,git,bash,python&amp;theme=dark" alt="AWS, Linux, Docker, Kubernetes, Terraform, GitHub Actions, Git, Bash and Python" />
 </div>
 
+<br />
+
+<table>
+<tr>
+<td width="34%" valign="top">
+
+**Cloud & platform**
+
+`AWS · Linux`<br />
+`Docker · Kubernetes`
+
+</td>
+<td width="33%" valign="top">
+
+**Delivery & IaC**
+
+`Terraform · GitHub Actions`<br />
+`Git`
+
+</td>
+<td width="33%" valign="top">
+
+**Automation**
+
+`Bash · Python`
+
+</td>
+</tr>
+</table>
+
 ## Engineering mindset
+
+<details open>
+<summary><strong>Security operating model</strong></summary>
 
 ```yaml
 security:
@@ -60,6 +113,14 @@ security:
   telemetry: observe, then decide
 ```
 
+</details>
+
 ## Connect
 
-<a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=flat-square&amp;logo=linkedin&amp;logoColor=58A6FF" alt="LinkedIn" /></a> <a href="mailto:Ahmedelrh04@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=flat-square&amp;logo=gmail&amp;logoColor=F59E0B" alt="Email" /></a> <a href="https://github.com/ElrhAhmed"><img src="https://img.shields.io/badge/GitHub-0B1220?style=flat-square&amp;logo=github&amp;logoColor=E6EDF3" alt="GitHub" /></a>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/ahmed-elrhorba-746513339/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&amp;logo=linkedin&amp;logoColor=58A6FF" alt="LinkedIn" /></a>
+<a href="mailto:Ahmedelrh04@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&amp;logo=gmail&amp;logoColor=F59E0B" alt="Email" /></a>
+<a href="https://github.com/ElrhAhmed"><img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=E6EDF3" alt="GitHub" /></a>
+
+</div>
