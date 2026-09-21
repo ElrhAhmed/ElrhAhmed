@@ -28,24 +28,24 @@
     </filter>
   </defs>
   <text class="label" x="34" y="17">PUBLIC ACTIVITY · 12 WEEKS</text>
-  <text class="label" x="866" y="17" text-anchor="end">202 CONTRIBUTIONS</text>
+  <text class="label" x="866" y="17" text-anchor="end">204 CONTRIBUTIONS</text>
   <path d="M34 82H866" stroke="var(--line)" stroke-width="1"/>
-  <path class="pulse" d="M 34.0,72.4 L 109.6,69.7 L 185.3,66.4 L 260.9,63.7 L 336.5,62.1 L 412.2,65.5 L 487.8,72.4 L 563.5,61.4 L 639.1,64.6 L 714.7,53.3 L 790.4,40.0 L 866.0,46.7"/>
-    <circle class="day" cx="34.0" cy="72.4" r="2.0" opacity="0.34"/>
-    <circle class="day" cx="109.6" cy="69.7" r="2.2" opacity="0.39"/>
-    <circle class="day" cx="185.3" cy="66.4" r="2.4" opacity="0.45"/>
-    <circle class="day" cx="260.9" cy="63.7" r="2.5" opacity="0.50"/>
-    <circle class="day" cx="336.5" cy="62.1" r="2.6" opacity="0.53"/>
-    <circle class="day" cx="412.2" cy="65.5" r="2.4" opacity="0.47"/>
-    <circle class="day" cx="487.8" cy="72.4" r="2.0" opacity="0.34"/>
-    <circle class="day" cx="563.5" cy="61.4" r="2.7" opacity="0.54"/>
-    <circle class="day" cx="639.1" cy="64.6" r="2.5" opacity="0.48"/>
-    <circle class="day" cx="714.7" cy="53.3" r="3.2" opacity="0.69"/>
+  <path class="pulse" d="M 34.0,72.3 L 109.6,63.4 L 185.3,74.1 L 260.9,58.2 L 336.5,62.6 L 412.2,72.3 L 487.8,72.3 L 563.5,61.0 L 639.1,64.3 L 714.7,48.3 L 790.4,40.0 L 866.0,48.3"/>
+    <circle class="day" cx="34.0" cy="72.3" r="2.0" opacity="0.34"/>
+    <circle class="day" cx="109.6" cy="63.4" r="2.6" opacity="0.51"/>
+    <circle class="day" cx="185.3" cy="74.1" r="1.9" opacity="0.31"/>
+    <circle class="day" cx="260.9" cy="58.2" r="2.9" opacity="0.60"/>
+    <circle class="day" cx="336.5" cy="62.6" r="2.6" opacity="0.52"/>
+    <circle class="day" cx="412.2" cy="72.3" r="2.0" opacity="0.34"/>
+    <circle class="day" cx="487.8" cy="72.3" r="2.0" opacity="0.34"/>
+    <circle class="day" cx="563.5" cy="61.0" r="2.7" opacity="0.55"/>
+    <circle class="day" cx="639.1" cy="64.3" r="2.5" opacity="0.49"/>
+    <circle class="day" cx="714.7" cy="48.3" r="3.5" opacity="0.79"/>
     <circle class="day" cx="790.4" cy="40.0" r="4.0" opacity="0.94"/>
-    <circle class="day" cx="866.0" cy="46.7" r="3.6" opacity="0.82"/>
+    <circle class="day" cx="866.0" cy="48.3" r="3.5" opacity="0.79"/>
   <circle class="runner" r="3.2">
-    <animateMotion path="M 34.0,72.4 L 109.6,69.7 L 185.3,66.4 L 260.9,63.7 L 336.5,62.1 L 412.2,65.5 L 487.8,72.4 L 563.5,61.4 L 639.1,64.6 L 714.7,53.3 L 790.4,40.0 L 866.0,46.7" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+    <animateMotion path="M 34.0,72.3 L 109.6,63.4 L 185.3,74.1 L 260.9,58.2 L 336.5,62.6 L 412.2,72.3 L 487.8,72.3 L 563.5,61.0 L 639.1,64.3 L 714.7,48.3 L 790.4,40.0 L 866.0,48.3" dur="7s" begin="1.4s" repeatCount="indefinite"/>
   </circle>
-  <text class="label" x="34" y="120">2026-06-29</text>
-  <text class="label" x="866" y="120" text-anchor="end">2026-09-20</text>
+  <text class="label" x="34" y="120">2026-06-30</text>
+  <text class="label" x="866" y="120" text-anchor="end">2026-09-21</text>
 </svg>
